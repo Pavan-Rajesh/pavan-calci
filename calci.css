@@ -1,0 +1,90 @@
+body{
+    background:hsl(222, 26%, 31%);
+}
+.calculator-text{
+   
+   font-family: 'League Spartan', sans-serif;
+     color:rgb(255, 255, 255);
+     font-size: 2rem;
+     display: inline;
+    
+
+}
+.calci{
+   
+    margin:2cm 0 3cm 10cm;
+}
+.theme{
+    margin-left: 8cm;
+    font-size: 20px;
+}
+.screen{
+    width:11.7cm;
+    height:2cm;
+    background:hsl(224, 36%, 15%);
+    border-radius: 8px;
+    margin:0 0 15px;
+    direction: RTL;
+    caret-color: transparent;
+}
+input{
+    border:0;
+    color:white;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 40px;
+
+}
+input:focus{
+    outline: none;
+}
+.buttons-body{
+    width:11.7cm;
+    height:8.4cm;
+    background:hsl(223, 31%, 20%);
+    border-radius: 8px;
+    padding:10px;
+}
+button{
+    font-family: 'League Spartan', sans-serif;
+   
+   padding:0px 30px;
+    border-radius:8px;
+    font-size: 28px;
+    margin-left: 5px;
+   background-color:  ;
+   color:  hsl(221, 14%, 31%);
+   box-shadow: 0 2px #999;
+   
+}
+.col{
+   padding:5px 0 10px 5px;
+   margin-left:10px
+
+}
+.special-button{
+    padding:6px 20px;
+    font-size: 20px;
+    color:white;
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0 2px hsl(224, 28%, 35%);
+}
+.row{
+    padding:13 15px;
+}
+.under-button-reset
+{
+    padding:5px 65px;
+    font-size: 20px;
+    background-color:  hsl(225, 21%, 49%);
+    color:white;
+    box-shadow: 0 2px hsl(224, 28%, 35%);
+}
+.under-button-equalto{
+    padding:0px 85px;
+    background-color:  hsl(6, 63%, 50%);
+    color:white;
+    box-shadow: 0 2px hsl(28, 16%, 65%);
+}
+.button:active{
+    translate :4px;
+}
